@@ -22,7 +22,7 @@ This project was created to understand how databases work internally including t
 
 CREATE students id name marks
 INSERT students 1 Vansh 95
-INSERT students 2 Sara 93
+INSERT students 2 Serah 93
 SELECT students
 SELECT students marks > 90
 UPDATE students marks = 99 WHERE id == 1
