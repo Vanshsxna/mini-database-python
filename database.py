@@ -6,8 +6,8 @@ class Database:
     def __init__(self, filename):
         """
         Initialize the database.
-        If file exists → load data
-        Else → create empty database file
+        If file exists: load data
+        Else: create empty database file
         """
         self.filename = filename
         self.tables = {}
@@ -210,4 +210,5 @@ class Database:
 
         self.save()
         print(f"Updated {updated_count} row(s) in '{table_name}'")
+
 
